@@ -1,0 +1,20 @@
+<p>
+  Service is where we make our queries to the backend(HTTP requests).
+  <br/>
+  1.We need to create our models (the objects that will catch our backend response.Just for example i will add one with name  payload.
+  <br>
+  For simplicity i will create only class ,but you could add interface too .About that pros and cons you can read in
+  <a href="https://stackoverflow.com/questions/54356711/angular-class-and-interface/54356916">Class VS Interface</a>
+  <a href="https://ultimatecourses.com/blog/classes-vs-interfaces-in-typescript">Classes VS Interface 2 </a>
+  <br/>
+  2.Create service and copy the code from crud.service.ts under service dir(this will be our Service)
+  <a href="https://codecraft.tv/courses/angular/http/overview/">HTTP</a>
+  <br/>
+  3.import HTTP client module and register this Service as a provider in app.module.ts
+  <br/>
+  4.After that to use this Service you need to import via dependency injection(private _crudService: CrudService)
+  <br/>
+  it in the component where we will use it (in our case service.compenent.ts)
+  <br/>
+  5.After that you can use it as a normal component
+</p>

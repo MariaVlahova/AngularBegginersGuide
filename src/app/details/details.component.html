@@ -1,0 +1,23 @@
+<p>
+  How to add component in other component
+  <br/>
+  1.Create new component (folder under app like details ) with details.component.html and details.component.scss and services.component.ts
+  <br/>
+  and servicess.component.spec.ts files in it.
+  <br/>
+  2.Open   services.component.ts and add meta data how component to be created
+  <br/>
+  selector -->how will be access from other components
+  <br/>
+  templateUrl -->which  (html file ) will use(will be rendered when this component has been called
+  <br/>
+  styleUrls -->css file/files that will be used in that component
+  <br/>
+  3.Open servicess.component.spec.ts (here we will add our unit tests) .Copy the code and just change component path and name and you can use it in your component as
+  <br/>
+  a initial code
+  <br/>
+  4.Go to app.modules.ts and add component name to declarations array
+  <br/>
+  5.Use this component in other component by selector .To see how we do it go check the about.component.html
+</p>
